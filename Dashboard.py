@@ -235,6 +235,10 @@ if add_sidebar == 'Top 25 words which give most attraction':
     fig_ddp7.update_layout(height=600,width=1100)
     st.plotly_chart(fig_ddp7)
     
+    st.write('INSIGHTS')
+    st.write('• Both groups are similar due to the subject of the channel (words like "Data Science", "Data" and "Scientist" are popular in both of them) but there are also some differences')
+    st.write('• Videos that attract new audience are more frequently focused on learning. The words "Learning" and "Learn" are some of the most frequent in this group. Also there are lots of words related to creating projects - "Project", "Scratch", "Python", "Kaggle", Github", "Portfolio"...')
+    st.write('• The second group seems to have more of entertaining videos. Words like "Shorts", "Live", "Stream" and "Funny" are unique to this group.')
     
     
 # print("daanyal")

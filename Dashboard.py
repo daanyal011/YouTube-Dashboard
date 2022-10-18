@@ -153,7 +153,7 @@ if add_sidebar == 'Individual Video Analysis':
 
 if add_sidebar == 'Growth of channel in future':
     
-    q = df_agg['Likes'].quantile(0.99)
+    q = df_agg['Likes'].quantile(0.5)
     data_1 = df_agg[df_agg['Likes']<q]
 
     q = data_1['Shares'].quantile(0.99)

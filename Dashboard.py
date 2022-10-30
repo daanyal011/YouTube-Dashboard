@@ -133,10 +133,18 @@ if add_sidebar == 'Individual Video Analysis':
     fig = px.bar(agg_sub_filtered, x='Views', y='Is Subscribed', color='Country', orientation='h')
     fig.update_layout(height=500,width =1000)
     st.plotly_chart(fig)
+
+    fig_map = go.Figure(data=go.Choropleth(
+    locations=agg_sub_filtered['Country'], # Spatial coordinates
+    z = agg_sub_filtered['Views'].astype(float), # Data to be color-coded
+    locationmode = 'country names', # set of locations match entries in `locations`
+    colorscale = 'Reds',
+    colorbar_title = "Views",))
+    fig_map.update_layout(title_text = 'Total Views by Country',height=600,width=1100)
+    st.plotly_chart(fig_map)
     
-    
+
     agg_time_filtered = df_time_diff[df_time_diff['Video Title'] == video_select]
-    
     first_30 = agg_time_filtered[agg_time_filtered['days_published'].between(0,30)]
     first_30 = first_30.sort_values('days_published')
     st.write()

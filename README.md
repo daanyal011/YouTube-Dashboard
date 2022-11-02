@@ -28,3 +28,13 @@ Please follow the below steps to run this project
 1. [NumPy](https://numpy.org/)
 2. [Plotly](https://plotly.com/)
 3. [Streamlit](https://streamlit.io/)
+
+### Dataset Used
+1. [Aggregated_Metrics_By_Country_And_Subscriber_Status.csv](https://www.kaggle.com/datasets/kenjee/ken-jee-youtube-data?select=Aggregated_Metrics_By_Country_And_Subscriber_Status.csv)
+2. [Aggregated_Metrics_By_Video.csv](https://www.kaggle.com/datasets/kenjee/ken-jee-youtube-data?select=Aggregated_Metrics_By_Video.csv)
+3. [All_Comments_Final.csv](https://www.kaggle.com/datasets/kenjee/ken-jee-youtube-data?select=All_Comments_Final.csv)
+4. [Video_Performance_Over_Time.csv](https://www.kaggle.com/datasets/kenjee/ken-jee-youtube-data?select=Video_Performance_Over_Time.csv)
+
+### References
+- [YouTube Trending Video Dashboard](https://www.irjet.net/archives/V9/i5/IRJET-V9I5370.pdf)
+- [A content analysis in the studies of YouTube in selected journals ](https://www.researchgate.net/publication/280289182_A_Content_Analysis_in_the_Studies_of_YouTube_in_Selected_Journals)

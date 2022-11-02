@@ -25,9 +25,12 @@ Please follow the below steps to run this project
 
 ### Platform, Libraries and Frameworks used
 1. [Pandas](https://pandas.pydata.org/)
-1. [NumPy](https://numpy.org/)
-2. [Plotly](https://plotly.com/)
-3. [Streamlit](https://streamlit.io/)
+2. [NumPy](https://numpy.org/)
+3. [Plotly](https://plotly.com/)
+4. [Streamlit](https://streamlit.io/)
+5. [datetime](https://docs.python.org/3/library/datetime.html)
+6. [country convertor](https://pypi.org/project/country-converter/)
+7. [wordcloud](https://pypi.org/project/wordcloud/)
 
 ### Dataset Used
 1. [Aggregated_Metrics_By_Country_And_Subscriber_Status.csv](https://www.kaggle.com/datasets/kenjee/ken-jee-youtube-data?select=Aggregated_Metrics_By_Country_And_Subscriber_Status.csv)

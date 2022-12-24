@@ -1,8 +1,0 @@
-pandas
-numpy
-statsmodels
-plotly
-streamlit
-datetime
-country_converter
-wordcloud

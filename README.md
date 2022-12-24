@@ -1,5 +1,5 @@
 # YouTube dashboard using streamlit
-YouTube Dashboard created using Pandas,NumPy,Plotly,Streamlit.
+
 > **Abstract** : This is a data science project  using python and streamlit , This is a exploratory data analysis project . In this we will use the libraries numpy, pandas, plotly.
 
 ### Project Members
